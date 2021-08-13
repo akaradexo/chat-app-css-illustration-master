@@ -9,27 +9,26 @@
   <link rel="stylesheet" href="./style/style.css">
   <title>Frontend Mentor | [Challenge Name Here]</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <!-- <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style> -->
+ 
 </head>
 <body>
   <section>
+    <div class="background-gradiant"></div>
+    <div class="background-light"></div>
     <div class="container" role="main">
       <div class="ui-design">
         <div class="mobile">
-          <div class="navbar">
+          <div class="top">
           <div class="white-bar"></div>
-          
-            <i class="fas fa-chevron-left"></i>
-            <img src="./images/avatar.jpg" alt="profile-img">
-            <div class="name">
-              <h1>Samuel Green</h1>
-              <p>Available to Walk</p>
+            <div class="navbar">
+              <i class="fas fa-chevron-left"></i>
+              <img src="./images/avatar.jpg" alt="profile-img">
+              <div class="name">
+                <h1>Samuel Green</h1>
+                <p>Available to Walk</p>
+              </div>
+              <i class="fas fa-ellipsis-v"></i>
             </div>
-            <i class="fas fa-ellipsis-v"></i>
           </div>
           <div class="chat">
             <div class="left other-user">
@@ -38,35 +37,40 @@
             <div class="left other-user">
               <p>Could you send over some pictures of your dog, please?</p>
             </div>
-            <div class="right user">
+              
+            <div class="user">
               <div class="images-send">
                 <img src="./images/dog-image-1.jpg" alt="dog1"> 
                 <img src="./images/dog-image-2.jpg" alt="dog2">
                 <img src="./images/dog-image-3.jpg" alt="dog3">
               </div>
-            </div>
-            <div class="right user">
-              <p>Here are a few pictures. She’s a happy girl!</p>
-            </div>
-            <div class="right user">
-              <p>Can you make it?</p>
+              <div class="right">
+                <p>Here are a few pictures. She’s a happy girl!</p>
+              </div>
+              <div class="right">
+                <p>Can you make it?</p>
+              </div>
             </div>
             <div class="left other-user">
               <p>She looks so happy! The time we discussed works. How long shall I take her out for?</p>
             </div>
             <div class="walk">
-              <i class="far fa-circle"></i>
-              <p>30 minute walk</p>
+              <div class="min">
+                <i class="far fa-circle"></i>
+                <p>30 minute walk</p>
+              </div>
               <span>$29</span>
             </div>
             <div class="walk">
-              <i class="far fa-circle"></i>
-              <p>1 hour walk</p>
+              <div class="min">
+                <i class="far fa-circle"></i>
+                <p>1 hour walk</p>
+              </div>
               <span>$49</span>
             </div>
             <div class="type">
-              <input type="text" placeholder="Type a message…">
               <i class="fas fa-chevron-circle-right"></i>
+              <input type="text" placeholder="Type a message…">
             </div>
           </div>
         </div>
@@ -103,10 +107,10 @@
   
 
   
-<!--   
+  
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div> -->
+    Coded by <a href="https://github.com/xR0v3Rx">Ashutosh Karade</a>.
+  </div>
 </body>
 </html>
